@@ -1,4 +1,5 @@
 ---
+title: "Index"
 date: "Last Updated: `r Sys.Date()`"
 ---
 <div style="clear: both;"></div>
