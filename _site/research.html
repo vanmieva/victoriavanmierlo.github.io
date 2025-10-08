@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research</title>
+
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Victoria A. Van Mierlo</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="home.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="gallery.html">Gallery</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+<li>
+  <a href="curriculum-vitae.html">Connect</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Research</h1>
+
+</div>
+
+
+<div id="ongoing-projects" class="section level2">
+<h2>Ongoing Projects</h2>
+<div
+id="environmental-mediation-of-the-establishment-and-impact-of-invasive-crayfishes"
+class="section level3">
+<h3>Environmental mediation of the establishment and impact of invasive
+crayfishes</h3>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/IMG_9284.jpg" alt="Field and lab action shots of my reasearch in progress." width="33%" height="4%" /><img src="WebsiteImages/20241229_195908309_iOS.jpg" alt="Field and lab action shots of my reasearch in progress." width="33%" height="4%" /><img src="WebsiteImages/IMG_9637.jpg" alt="Field and lab action shots of my reasearch in progress." width="33%" height="4%" />
+<p class="caption">
+Field and lab action shots of my reasearch in progress.
+</p>
+</div>
+<p>My doctoral research program, under the supervision of Dr. Anthony
+Ricciardi at McGill University, aims to understand and address the
+decline of freshwater biodiversity by examining the impacts of
+biological invasions. I am interested in understanding the where, why,
+and how of invasive crayfishes in the Great Lakes and St Lawrence basin.
+I am using field surveys, laboratory experiments, and statistical
+modeling to determine which water bodies are most vulnerable to invasion
+and how expected and realized invasive may change as climate change
+progresses. I am also interested in how invasive crayfishes compare
+competitively to native crayfishes of the region.</p>
+<p>By providing essential data for risk assessment and evaluating
+management strategies, my research seeks to protect the rich
+biodiversity of the Great Lakes basin from current and emerging invasive
+threats.</p>
+<p>This work is supported by the Natural Sciences and Engineering
+Research Council of Canada (NSERC) through the Canada Graduate
+Scholarship-Doctoral (CGS D) and by the the McGill Graduate and
+Postdoctoral Studies Fellowships Committee through the 2024/25 Richard
+H. Tomlinson Doctoral Fellowship.</p>
+</div>
+</div>
+<div id="past-projects" class="section level2">
+<h2>Past Projects</h2>
+<div
+id="collection-of-baseline-ecological-information-adress-information-gaps-in-far-northern-ontario---canadian-wildlife-service---ontario"
+class="section level3">
+<h3>Collection of baseline ecological information adress information
+gaps in Far Northern Ontario - Canadian Wildlife Service - Ontario</h3>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/borealcaribou.png" alt="Left: Boreal Caribou (*Rangifer tarandus caribou*). Alain caron 2020, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Anamalia. Right: Grey Wolf (*Canis lupus*) Fool4myCanon, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons" width="49%" height="20%" /><img src="WebsiteImages/Howling_wolf1.jpg" alt="Left: Boreal Caribou (*Rangifer tarandus caribou*). Alain caron 2020, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Anamalia. Right: Grey Wolf (*Canis lupus*) Fool4myCanon, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons" width="49%" height="20%" />
+<p class="caption">
+Left: Boreal Caribou (<em>Rangifer tarandus caribou</em>). Alain caron
+2020, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+4.0</a>, via Anamalia. Right: Grey Wolf (<em>Canis lupus</em>)
+Fool4myCanon, <a href="https://creativecommons.org/licenses/by/2.0">CC
+BY 2.0</a>, via Wikimedia Commons
+</p>
+</div>
+<p>From 2022 to 2024, I had the privilege of working as a federal public
+servant with the Canadian Wildlife Service - Ontario Region, focusing on
+addressing biodiversity related information gaps in Far Northern
+Ontario, part of Treaty 9 territory, the traditional lands of the
+Anishnaabeg, Oji-Cree, Omushkegowuk, and Métis Peoples (Leslie 2020).
+Far Northern Ontario is composed of vast peatlands and old-growth
+conifer stands that support several Species at Risk, including boreal
+and eastern migratory caribou (Hornseth &amp; Rempel 2016; Magoun et
+al. 2005). It is also home to The Ring of Fire (RoF), a large area
+within the Hudson Plains ecoregion that is rich in critical minerals for
+electric vehicle (EV) manufacturing. A regional assessment regarding the
+potential impacts of mineral extraction from the RoF has been announced,
+and the <a
+href="https://iaac-aeic.gc.ca/050/evaluations/proj/80468?culture=en-CA">draft
+terms of agreement</a> were published in September 2024. As a Wildlife
+Habitat Biologist, my role was broad and fulfilling, supporting the
+collection of baseline ecological information in Far Northern Ontario
+with a particular focus on boreal caribou predators - specifically grey
+wolf vocalization analysis and modeling. During this time, I developed
+and applied skills in geospatial analysis using ArcGIS Pro, Bayesian
+statistical modeling and power analysis, information management,
+procurement, as well as student hiring and supervision.Check out a
+publication from this work <a
+href="https://cdnsciencepub.com/doi/full/10.1139/cjz-2024-0121">here</a>.</p>
+</div>
+<div
+id="occupancy-impacts-of-northern-crayfish-faxonius-virilis-in-tributaries-of-in-the-north-saskatchewan-river-basin---m.sc-research"
+class="section level3">
+<h3>Occupancy &amp; impacts of Northern Crayfish (<em>Faxonius
+virilis</em>) in tributaries of in the North Saskatchewan River basin -
+M.Sc Research</h3>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/HoldingCrayfish.png" alt="Left: A happy scientist holding the first invasive Northern Crayfish of the field season (2020) Right: Dissecting invasive Northern Crayfish for stabe Isotope Analysis (2021)." width="49%" height="20%" /><img src="WebsiteImages/CrayfishDissect.jpeg" alt="Left: A happy scientist holding the first invasive Northern Crayfish of the field season (2020) Right: Dissecting invasive Northern Crayfish for stabe Isotope Analysis (2021)." width="49%" height="20%" />
+<p class="caption">
+Left: A happy scientist holding the first invasive Northern Crayfish of
+the field season (2020) Right: Dissecting invasive Northern Crayfish for
+stabe Isotope Analysis (2021).
+</p>
+</div>
+<p>From 2019 to 2021, I conducted research on the occupancy and impacts
+of invasive Northern Crayfish (<em>Faxonius virilis</em>) in the North
+Saskatchewan River basin. My work was nested within the larger North
+Saskatchewan River watershed integrity and aquatic ecosystem health
+project - a partnership between the University of Alberta, Alberta
+Innovates Water Innovation Program, the Government of Alberta, and
+EPCOR. To read more about the watershed integrity project, please visit
+this <a
+href="https://albertainnovates.ca/wp-content/uploads/2023/04/222301756-Development-of-a-Comprehensive-Geospatial-Tool-Proj-Summ-Apr-4-2023.pdf">summary</a>.
+Through this work, I earned my Master of Science under the supervision
+of my committee members (Dr. Stephanie Green, Dr. Mark Poesch, and
+Dr. Craig Emmerton) and published my first peer-reviewed publication.
+During this time, I planned and conducted field work to sample and
+collect invasive crayfish and native fishes in tributaries of the
+prairie, mid-land, and rocky mountain regions of the watershed (see the
+Gallery page for some field work photos). The resulting data was first
+used to determined the in-stream environmental characteristics most
+associated with the crayfish’s occupancy in the NSR and determine which
+unoccupied tributaries are most prone to crayfish invasion. Ultimately,
+my findings indicated that water temperature alone drove occupancy of
+<em>F. virilis</em> in the NSR and that tributaries with mean summer
+water temperatures greater than 18.7 °C having a 50% + likelihood to be
+occupied by <em>F. virilis</em> and thus, are at highest risk for
+subsequent invasion. With these results, I was able to provide practical
+guidelines for watershed management of invasive <em>F. virilis</em>
+populations in the NSR and Alberta. For more info, please see <a
+href="https://doi.org/10.1086/722576">Van Mierlo et al, 2022</a>.</p>
+<p>Additionally, I used stable isotope analysis to investigate if <em>F.
+virilis</em> sympatry was related to differences in isotopic
+characteristics and/or reduced condition of native fishes. My results
+suggested that <em>F. virilis</em> may be utilizing dietary plasticity
+to exploit a slightly different trophic niche than native fishes and in
+doing so, avoid exploitative competition for nutritional resources.
+Dietary plasticity may be facilitate the establishment and invasion of
+<em>F. virilis</em> populations in unoccupied tributaries of the NSR
+where <em>F. virilis</em> could negatively affecting rare/sensitive fish
+species through indirect or direct forms of competition. For more
+information, please see my <a
+href="https://doi.org/10.7939/r3-eyee-th45">published thesis</a> on the
+University of Alberta Archive or my <a
+href="https://naturealberta.ca/wp-content/uploads/2022/07/Nature-Alberta-Mag-Summer-2022_web2.pdf">popular
+article</a> in Nature Alberta (pg.12-13).</p>
+</div>
+</div>
+<div id="publications" class="section level2">
+<h2>Publications</h2>
+<div id="peer-reviewed" class="section level3">
+<h3>Peer-Reviewed</h3>
+<p>McFarlane, S., Van Mierlo, V., Manseau, M., Kroeze, A., Eberhardt,
+E., &amp; Girard, J. (2025). Bioclimatic, terrain, and specific peatland
+composition are major drivers of woodland caribou winter habitat
+suitability in northern Ontario. Canadian Journal of Zoology, 103, 1–18.
+<a href="https://doi.org/10.1139/cjz-2024-0121"
+class="uri">https://doi.org/10.1139/cjz-2024-0121</a></p>
+<p>Van Mierlo, V. A., Green, S. J., Emmerton, C. A., Nasr, M., Buendia,
+C., Wyatt, F. R., &amp; Poesch, M. S. (2022). Occupancy of invasive
+Northern Crayfish (Faxonius virilis) in northern streams is associated
+primarily with water temperature. Freshwater Science, 41(4), 650–664. <a
+href="https://doi.org/10.1086/722576"
+class="uri">https://doi.org/10.1086/722576</a></p>
+<p>Tahir, I., Van Mierlo, V., Radauskas, V., Yeung, W., Tracey, A.,
+&amp; da Silva, R. (2022). Blended learning in a biology classroom:
+Pre-pandemic insights for post-pandemic instructional strategies. FEBS
+Open Bio, 12(7), 1286–1305. <a
+href="https://doi.org/10.1002/2211-5463.13421"
+class="uri">https://doi.org/10.1002/2211-5463.13421</a></p>
+<div id="theses-popular-articles" class="section level4">
+<h4>Theses &amp; Popular Articles</h4>
+<p>Van Mierlo, V. A. (2021). Occupancy and Impacts of the Northern
+Crayfish (Faxonius virilis) in Tributaries of the North Saskatchewan
+River Basin [University of Alberta]. <a
+href="https://doi.org/10.7939/r3-eyee-th45"
+class="uri">https://doi.org/10.7939/r3-eyee-th45</a></p>
+<p>Van Mierlo, V. A. (2022, July). The Invasive Northern Crayfish: An
+Unwelcome Visitor to Alberta’s Watersheds. Nature Alberta Magazine,
+52(Summer 2022), 12–13.</p>
+</div>
+</div>
+<div id="references" class="section level3">
+<h3>References</h3>
+<p>Hornseth, M. L., &amp; Rempel, R. S. (2016). Seasonal resource
+selection of woodland caribou (Rangifer tarandus caribou) across a
+gradient of anthropogenic disturbance. Canadian Journal of Zoology,
+94(2), 79–93. <a href="https://doi.org/10.1139/cjz-2015-0101"
+class="uri">https://doi.org/10.1139/cjz-2015-0101</a></p>
+<p>Leslie, J. (2020). Treaty 9. In <em>The Canadian Encyclopedia</em>.
+Retrieved from <a
+href="https://www.thecanadianencyclopedia.ca/en/article/treaty-9"
+class="uri">https://www.thecanadianencyclopedia.ca/en/article/treaty-9</a></p>
+<p>Magoun, A. J., Abraham, K. F., Thompson, J. E., Ray, J. C., Gauthier,
+M. E., Brown, G. S., Woolmer, G., Chenier, C. J., &amp; Dawson, F. N.
+(2005). Distribution and relative abundance of caribou in the Hudson
+Plains Ecozone of Ontario. Rangifer, 105–121. <a
+href="https://doi.org/10.7557/2.25.4.1776"
+class="uri">https://doi.org/10.7557/2.25.4.1776</a></p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

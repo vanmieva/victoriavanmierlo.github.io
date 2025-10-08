@@ -1,0 +1,30 @@
+---
+title: "Connect"
+output: html_document
+---
+
+#### Connect with me on mutliple platforms at the links below: 
+
+Email: victoria.vanmierlo{-at-}mail.mcgill.ca 
+
+[Bluesky](https://bsky.app/profile/vanmierlo.bsky.social)
+
+[Google Scholar](https://scholar.google.com/citations?user=1olhllYAAAAJ&hl=en&oi=ao)
+
+[LinkedIn](https://www.linkedin.com/in/victoriavanmierlo/)
+
+Curriculum Vitae:
+
+```{r, echo=FALSE, ,fig.show='hold',fig.align='center'}
+downloadthis::download_file(
+path = "Victoria Van Mierlo CV.pdf",
+output_name = "Victoria Van Mierlo CV.pdf",
+button_label = "Download Victoria's CV Here",
+button_type = c("default", "primary", "success", "info", "warning", "danger"),
+has_icon = TRUE,
+icon = "fa fa-save",
+self_contained = FALSE
+)
+
+```
+
