@@ -17,6 +17,8 @@ navbar:
 #    - text: "Workspace-DoNotPub"
 #      href: workspace.html
 
+output_dir: "."
+ 
 output:
   html_document:
     theme: cosmo

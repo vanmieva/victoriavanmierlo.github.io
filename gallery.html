@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Gallery</title>
+
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Victoria A. Van Mierlo</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="home.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="gallery.html">Gallery</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+<li>
+  <a href="curriculum-vitae.html">Connect</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Gallery</h1>
+
+</div>
+
+
+<div id="summer-field-work" class="section level3">
+<h3>2025 Summer Field Work</h3>
+<div
+id="first-phd-field-season-under-my-belt-we-successfuly-sampled-crayfishes-at-40-sites-along-the-st.-lawrence-river-and-ottawa-river-upstream-downstream-and-around-the-island-of-montreal.-take-a-look-at-some-of-the-seasons-highlights-below"
+class="section level4">
+<h4>First PhD field season under my belt! We successfuly sampled
+crayfishes at 40 sites along the St. Lawrence river and Ottawa river
+upstream, downstream, and around the island of Montreal. Take a look at
+some of the season’s highlights below!</h4>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/IMG_9358.jpg" alt=" " width="25%" height="20%" /><img src="WebsiteImages/IMG_4570.jpg" alt=" " width="25%" height="20%" /><img src="WebsiteImages/IMG_5121.jpg" alt=" " width="25%" height="20%" /><img src="WebsiteImages/IMG_4589.JPG" alt=" " width="25%" height="20%" />
+<p class="caption">
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/IMG_4703_croped.jpg" alt=" " width="33%" height="20%" /><img src="WebsiteImages/IMG_4940.jpg" alt=" " width="33%" height="20%" /><img src="WebsiteImages/IMG_5302.jpg" alt=" " width="33%" height="20%" />
+<p class="caption">
+</p>
+</div>
+<video width="290" height="497" controls>
+<source src="WebsiteImages/IMG_4755.mov" type="video/mp4">
+</video>
+<div style="float: right; width: 41%; margin-right: 27%;">
+<p><img src="WebsiteImages/IMG_4751.jpg" alt="Image" style="width: auto; height: auto;"></p>
+</div>
+<p>
+</p>
+<p>
+</p>
+</div>
+</div>
+<div id="deans-reception-to-celebrate-fellowship-award-recipients"
+class="section level3">
+<h3>2024 Dean’s reception to celebrate Fellowship Award recipients</h3>
+<div
+id="i-attended-the-2024-dean-of-graduate-and-postdoctoral-studies-reception-to-celebrate-fellowship-award-recipients.-the-evening-was-filled-with-delicious-food-and-networking-with-fellow-tomlinson-scholars-as-well-as-banting-postdoctoral-fellows-vanier-canada-graduate-scholars-and-pierre-elliott-trudeau-foundation-scholars."
+class="section level4">
+<h4>I attended the 2024 Dean of Graduate and Postdoctoral Studies’
+reception to celebrate Fellowship Award recipients. The evening was
+filled with delicious food, and networking with fellow Tomlinson
+Scholars as well as Banting Postdoctoral Fellows, Vanier Canada Graduate
+Scholars, and Pierre Elliott Trudeau Foundation Scholars.</h4>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/TomlinsonScholars2024.JPG" alt="Left: Group photo of the 2023 &amp; 2024 Tomlinson Scholars. Right: An  action shot of me discussing my PhD topic with old and new friends. Photo credit to Owen Egan and Joni Dufour. " width="50%" height="20%" /><img src="WebsiteImages/Discussing.JPG" alt="Left: Group photo of the 2023 &amp; 2024 Tomlinson Scholars. Right: An  action shot of me discussing my PhD topic with old and new friends. Photo credit to Owen Egan and Joni Dufour. " width="50%" height="20%" />
+<p class="caption">
+Left: Group photo of the 2023 &amp; 2024 Tomlinson Scholars. Right: An
+action shot of me discussing my PhD topic with old and new friends.
+Photo credit to Owen Egan and Joni Dufour.
+</p>
+</div>
+</div>
+</div>
+<div id="summer-2024-field-work" class="section level3">
+<h3>Summer 2024 Field Work</h3>
+<div
+id="i-only-caught-the-tail-end-of-field-work-this-summer-since-i-started-my-phd-program-in-september-but-i-was-lucky-enough-to-help-my-colleague-ty-with-his-field-work-for-a-couple-of-days."
+class="section level4">
+<h4>I only caught the tail end of field work this summer since I started
+my PhD program in September but I was lucky enough to help my colleague
+Ty with his field work for a couple of days.</h4>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/PouringGobies.jpeg" alt=" " width="50%" height="20%" /><img src="WebsiteImages/group.jpeg" alt=" " width="50%" height="20%" />
+<p class="caption">
+</p>
+</div>
+<video width="910" height="500" controls>
+<source src="WebsiteImages/IMG_6448.MP4" type="video/mp4">
+</video>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/processing1.jpeg" alt=" " width="50%" height="20%" /><img src="WebsiteImages/processing2.jpeg" alt=" " width="50%" height="20%" />
+<p class="caption">
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/IMG_6514.JPEG" alt="Ty, Erin, Veronica, Alex, and I used a box seine to sample for invasive Round Gobbies in lakes on the Ontario side of the Quebec-Ontario border. In the top left photo you can see two gobbies in the corner of the bucket. In the bottom right you can see a dorsal view of a round gobie and a tube-nosed gobie, side-by side, in a viewing window.Tubenose gobie are an imerging invasive fish that has only recently been confimed in Ontario and parts of Quebec.  " width="33%" height="20%" /><img src="WebsiteImages/IMG_6525.JPEG" alt="Ty, Erin, Veronica, Alex, and I used a box seine to sample for invasive Round Gobbies in lakes on the Ontario side of the Quebec-Ontario border. In the top left photo you can see two gobbies in the corner of the bucket. In the bottom right you can see a dorsal view of a round gobie and a tube-nosed gobie, side-by side, in a viewing window.Tubenose gobie are an imerging invasive fish that has only recently been confimed in Ontario and parts of Quebec.  " width="33%" height="20%" /><img src="WebsiteImages/IMG_6421.JPEG" alt="Ty, Erin, Veronica, Alex, and I used a box seine to sample for invasive Round Gobbies in lakes on the Ontario side of the Quebec-Ontario border. In the top left photo you can see two gobbies in the corner of the bucket. In the bottom right you can see a dorsal view of a round gobie and a tube-nosed gobie, side-by side, in a viewing window.Tubenose gobie are an imerging invasive fish that has only recently been confimed in Ontario and parts of Quebec.  " width="33%" height="20%" />
+<p class="caption">
+Ty, Erin, Veronica, Alex, and I used a box seine to sample for invasive
+Round Gobbies in lakes on the Ontario side of the Quebec-Ontario border.
+In the top left photo you can see two gobbies in the corner of the
+bucket. In the bottom right you can see a dorsal view of a round gobie
+and a tube-nosed gobie, side-by side, in a viewing window.Tubenose gobie
+are an imerging invasive fish that has only recently been confimed in
+Ontario and parts of Quebec.
+</p>
+</div>
+</div>
+</div>
+<div id="msc-field-lab-work" class="section level3">
+<h3>MSc Field &amp; Lab Work</h3>
+<div
+id="during-my-msc-work-at-the-university-of-alberta-i-had-the-privledge-of-trapping-and-efishing-in-some-of-the-most-beautiful-places-in-alberta-from-the-rockies-to-the-prairies.-some-fo-the-best-photos-of-the-work-i-conducted-between-2019-and-2021-are-shown-below."
+class="section level4">
+<h4>During my MSc work at the University of Alberta, I had the privledge
+of trapping and efishing in some of the most beautiful places in
+Alberta, from the Rockies to the Prairies. Some fo the best photos of
+the work I conducted between 2019 and 2021 are shown below.</h4>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/SiffleurBehind.jpg" alt=" " width="50%" height="20%" /><img src="WebsiteImages/shallowcreek.jpg" alt=" " width="50%" height="20%" />
+<p class="caption">
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/HoldingCrayfish.png" alt=" " width="33%" height="20%" /><img src="WebsiteImages/SiffleurBackpack.jpg" alt=" " width="33%" height="20%" /><img src="WebsiteImages/CrayfishDissect.jpeg" alt=" " width="33%" height="20%" />
+<p class="caption">
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<img src="WebsiteImages/notetaking.jpg" alt="From top left to bottom right: Overlooking the headwaters of the Siffleur River before efishing (2020). Smiling after a successful field day in a beatiful prairie creek on the Eastern North Saskatchewan River basin (2019). A happy scientist holding the first invasive Northern Crayfish of the field season (2020). Trecking my gear 2 km back to the trailhead parking lot through Kootenay National Park after a successful day of efishing (2020). Dissecting invasive Northern Crayfish for stabe Isotope Analysis (2021). Finishing up field notes with a view (2019). Efishing the Ram River (2019). " width="50%" height="20%" /><img src="WebsiteImages/teamefishnew1.jpg" alt="From top left to bottom right: Overlooking the headwaters of the Siffleur River before efishing (2020). Smiling after a successful field day in a beatiful prairie creek on the Eastern North Saskatchewan River basin (2019). A happy scientist holding the first invasive Northern Crayfish of the field season (2020). Trecking my gear 2 km back to the trailhead parking lot through Kootenay National Park after a successful day of efishing (2020). Dissecting invasive Northern Crayfish for stabe Isotope Analysis (2021). Finishing up field notes with a view (2019). Efishing the Ram River (2019). " width="50%" height="20%" />
+<p class="caption">
+From top left to bottom right: Overlooking the headwaters of the
+Siffleur River before efishing (2020). Smiling after a successful field
+day in a beatiful prairie creek on the Eastern North Saskatchewan River
+basin (2019). A happy scientist holding the first invasive Northern
+Crayfish of the field season (2020). Trecking my gear 2 km back to the
+trailhead parking lot through Kootenay National Park after a successful
+day of efishing (2020). Dissecting invasive Northern Crayfish for stabe
+Isotope Analysis (2021). Finishing up field notes with a view (2019).
+Efishing the Ram River (2019).
+</p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
