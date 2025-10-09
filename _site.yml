@@ -2,8 +2,8 @@ name: "vanmierlova-research-website"
 navbar:
   title: "Victoria A. Van Mierlo"
   right:
-    - text: "Home"
-      href: home.html
+#    - text: "Home"
+#      href: home.html
 #    - text: "About"
 #      href: about.html
     - text: "Research"
