@@ -4,7 +4,7 @@ output: html_document
 ---
 
 ### 2025 Summer Field Work
-#### First PhD field season under my belt! We successfuly sampled crayfishes at 40 sites along the St. Lawrence river and Ottawa river upstream, downstream, and around the island of Montreal. Take a look at some of the season's highlights below!
+#### First PhD field season under my belt! We successfuly sampled crayfishes at 40 sites along the St. Lawrence River and Ottawa River upstream, downstream, and around the island of Montreal. Take a look at some of the season's highlights below!
 ```{r, echo=FALSE,out.width="25%",out.height="20%",fig.cap=" ",fig.show='hold',fig.align='center' }
 knitr::include_graphics(c("WebsiteImages/IMG_9358.jpg", "WebsiteImages/IMG_4570.jpg", "WebsiteImages/IMG_5121.jpg", "WebsiteImages/IMG_4589.JPG"))
 ```
@@ -18,20 +18,29 @@ knitr::include_graphics(c("WebsiteImages/IMG_4703_croped.jpg","WebsiteImages/IMG
 <div style="float: right; width: 41%; margin-right: 27%;">
   <img src="WebsiteImages/IMG_4751.jpg" alt="Image" style="width: auto; height: auto;">
 </div>
+
+<div style="float: center; width: 73%;font-size: 10px; margin-left: 0%">
   <p> </p>
+  <p> *Top row*: Left-most: Using the YSI probe to measure water quality of the Ottawa River (photo credit: Brielle Comartin). Center-Left: A stonecat (*Noturus flavus*) from the Ottawa River. Center-right: Large native freshwarer Unionid mussel in the St. Lawrence River. Right-most: Gettign ready to set crayfish traps on a sunny  summer day. *Middle row*: Left: Large Northern crayfish (*Faxonius virilis*). Center: Freshwater sponge. Right: Spinkycheek crayfish (*Faxonius limosus*) All three images in the middle row where from the St. Lawrence River. *Bottom row*: A video and photo of a very rare *Faxonius virilis* individual with the all-blue colour morph.   </p>
   <p> </p>
+</div>
+
+
 
 ### 2024 Dean's reception to celebrate Fellowship Award recipients
 #### I attended the 2024 Dean of Graduate and Postdoctoral Studies' reception to celebrate Fellowship Award recipients. The evening was filled with delicious food, and networking with fellow Tomlinson Scholars as well as Banting Postdoctoral Fellows, Vanier Canada Graduate Scholars, and Pierre Elliott Trudeau Foundation Scholars.  
-```{r, echo=FALSE,out.width="50%",out.height="20%",fig.cap="Left: Group photo of the 2023 & 2024 Tomlinson Scholars. Right: An  action shot of me discussing my PhD topic with old and new friends. Photo credit to Owen Egan and Joni Dufour. ",fig.show='hold',fig.align='center' }
+```{r, echo=FALSE,out.width="50%",out.height="20%",fig.cap=" ",fig.show='hold',fig.align='center' }
 knitr::include_graphics(c("WebsiteImages/TomlinsonScholars2024.JPG", "WebsiteImages/Discussing.JPG"))
 ```
+<div style="float: center; width: 100%;font-size: 10px; margin-left: 0%">
+  <p>Left: Group photo of the 2024-2025 Tomlinson Scholars. Right: An  action shot of me discussing my PhD topic with old and new friends. Photo credit to Owen Egan and Joni Dufour. </p>
+  <p> </p>
+</div>
 
 
 
 
-
-### Summer 2024 Field Work
+### 2024 Summer Field Work
 #### I only caught the tail end of field work this summer since I started my PhD program in September but I was lucky enough to help my colleague Ty with his field work for a couple of days.  
 ```{r, echo=FALSE,out.width="50%",out.height="20%",fig.cap=" ",fig.show='hold',fig.align='center' }
 knitr::include_graphics(c("WebsiteImages/PouringGobies.jpeg","WebsiteImages/group.jpeg"))
@@ -44,9 +53,13 @@ knitr::include_graphics(c("WebsiteImages/PouringGobies.jpeg","WebsiteImages/grou
 knitr::include_graphics(c("WebsiteImages/processing1.jpeg", "WebsiteImages/processing2.jpeg"))
 ```
 
-```{r, echo=FALSE,out.width="33%",out.height="20%",fig.cap="Ty, Erin, Veronica, Alex, and I used a box seine to sample for invasive Round Gobbies in lakes on the Ontario side of the Quebec-Ontario border. In the top left photo you can see two gobbies in the corner of the bucket. In the bottom right you can see a dorsal view of a round gobie and a tube-nosed gobie, side-by side, in a viewing window.Tubenose gobie are an imerging invasive fish that has only recently been confimed in Ontario and parts of Quebec.  ",fig.show='hold',fig.align='center' }
+```{r, echo=FALSE,out.width="33%",out.height="20%",fig.cap=" ",fig.show='hold',fig.align='center' }
 knitr::include_graphics(c("WebsiteImages/IMG_6514.JPEG", "WebsiteImages/IMG_6525.JPEG", "WebsiteImages/IMG_6421.JPEG"))
 ```
+<div style="float: center; width: 100%;font-size: 10px; margin-left: 0%">
+  <p>Ty, Erin, Veronica, Alex, and I used a box seine to sample for invasive Round Gobbies in lakes on the Ontario side of the Quebec-Ontario border. In the top left photo you can see two gobbies in the corner of the bucket. In the bottom right you can see a dorsal view of a round goby and a tube-nosed goby, side-by side, in a viewing window.Tubenose goby are an emerging invasive fish that has only recently been confimed in Ontario and parts of Quebec.  </p>
+  <p> </p>
+</div>
 
 ### MSc Field & Lab Work
 #### During my MSc work at the University of Alberta, I had the privledge of trapping and efishing in some of the most beautiful places in Alberta, from the Rockies to the Prairies. Some fo the best photos of the work I conducted between 2019 and 2021 are shown below. 
@@ -58,6 +71,10 @@ knitr::include_graphics(c("WebsiteImages/SiffleurBehind.jpg", "WebsiteImages/sha
 knitr::include_graphics(c("WebsiteImages/HoldingCrayfish.png", "WebsiteImages/SiffleurBackpack.jpg", "WebsiteImages/CrayfishDissect.jpeg"))
 ```
 
-```{r, echo=FALSE,out.width="50%",out.height="20%",fig.cap="From top left to bottom right: Overlooking the headwaters of the Siffleur River before efishing (2020). Smiling after a successful field day in a beatiful prairie creek on the Eastern North Saskatchewan River basin (2019). A happy scientist holding the first invasive Northern Crayfish of the field season (2020). Trecking my gear 2 km back to the trailhead parking lot through Kootenay National Park after a successful day of efishing (2020). Dissecting invasive Northern Crayfish for stabe Isotope Analysis (2021). Finishing up field notes with a view (2019). Efishing the Ram River (2019). ",fig.show='hold',fig.align='center' }
+```{r, echo=FALSE,out.width="50%",out.height="20%",fig.cap=" ",fig.show='hold',fig.align='center' }
 knitr::include_graphics(c("WebsiteImages/notetaking.jpg", "WebsiteImages/teamefishnew1.jpg"))
 ```
+<div style="float: center; width: 100%;font-size: 10px; margin-left: 0%">
+  <p>From top left to bottom right: Overlooking the headwaters of the Siffleur River before efishing (2020). Smiling after a successful field day in a beatiful prairie creek on the Eastern North Saskatchewan River basin (2019). A happy scientist holding the first invasive Northern Crayfish of the field season (2020). Trecking my gear 2 km back to the trailhead parking lot through Kootenay National Park after a successful day of efishing (2020). Dissecting invasive Northern Crayfish for stabe Isotope Analysis (2021). Finishing up field notes with a view (2019). Efishing the Ram River (2019). </p>
+  <p> </p>
+</div>

@@ -3,13 +3,15 @@ title: "Connect"
 output: html_document
 ---
 
-#### Connect with me on mutliple platforms at the links below: 
+#### Connect with me on mutliple platforms through the links below: 
 
 Email: victoria.vanmierlo{-at-}mail.mcgill.ca 
 
 [Bluesky](https://bsky.app/profile/vanmierlo.bsky.social)
 
 [Google Scholar](https://scholar.google.com/citations?user=1olhllYAAAAJ&hl=en&oi=ao)
+
+[Github](https://github.com/vanmieva)
 
 [LinkedIn](https://www.linkedin.com/in/victoriavanmierlo/)
 
