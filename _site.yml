@@ -4,14 +4,14 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-#    - text: "About"
-#      href: about.html
     - text: "Research"
       href: research.html
+    - text: "About"
+      href: about.html
     - text: "Gallery"
       href: gallery.html
-    - text: "Blog"
-      href: blog.html
+#    - text: "Blog"
+#      href: blog.html
     - text: "Connect"
       href: curriculum-vitae.html
 #    - text: "Workspace-DoNotPub"
